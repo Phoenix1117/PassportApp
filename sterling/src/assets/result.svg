@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54pt" height="54pt" viewBox="0 0 54 54" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="54" height="54" style="fill:rgb(0%,0%,0%);fill-opacity:0.4;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect width="54" height="54"/>
+</clipPath>
+<g id="surface6" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(80%,16.078431%,12.156863%);fill-opacity:1;" d="M 27 0 C 12.082031 0 0 12.082031 0 27 C 0 41.917969 12.082031 54 27 54 C 41.917969 54 54 41.917969 54 27 C 54 12.082031 41.917969 0 27 0 Z M 27 51.300781 C 13.566406 51.300781 2.699219 40.433594 2.699219 27 C 2.699219 13.566406 13.566406 2.699219 27 2.699219 C 40.433594 2.699219 51.300781 13.566406 51.300781 27 C 51.300781 40.433594 40.433594 51.300781 27 51.300781 Z M 27 51.300781 "/>
+</g>
+<mask id="mask1">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="54" height="54" style="fill:rgb(0%,0%,0%);fill-opacity:0.701961;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip2">
+  <rect width="54" height="54"/>
+</clipPath>
+<g id="surface9" clip-path="url(#clip2)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(80%,16.078431%,12.156863%);fill-opacity:1;" d="M 27 5.398438 C 15.050781 5.398438 5.398438 15.050781 5.398438 27 C 5.398438 38.949219 15.050781 48.601562 27 48.601562 C 38.949219 48.601562 48.601562 38.949219 48.601562 27 C 48.601562 15.050781 38.949219 5.398438 27 5.398438 Z M 27 45.898438 C 16.539062 45.898438 8.101562 37.460938 8.101562 27 C 8.101562 16.539062 16.539062 8.101562 27 8.101562 C 37.460938 8.101562 45.898438 16.539062 45.898438 27 C 45.898438 37.460938 37.460938 45.898438 27 45.898438 Z M 27 45.898438 "/>
+</g>
+</defs>
+<g id="surface1">
+<use xlink:href="#surface6" mask="url(#mask0)"/>
+<use xlink:href="#surface9" mask="url(#mask1)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(80%,16.078431%,12.156863%);fill-opacity:1;" d="M 43.199219 27 C 43.199219 35.945312 35.945312 43.199219 27 43.199219 C 18.054688 43.199219 10.800781 35.945312 10.800781 27 C 10.800781 18.054688 18.054688 10.800781 27 10.800781 C 35.945312 10.800781 43.199219 18.054688 43.199219 27 Z M 43.199219 27 "/>
+</g>
+</svg>

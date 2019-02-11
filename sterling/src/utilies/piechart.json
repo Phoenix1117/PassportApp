@@ -1,0 +1,45 @@
+{
+    "chart": {
+        "plotBackgroundColor": null,
+        "plotBorderWidth": null,
+        "plotShadow": false,
+        "type": "pie"
+    },
+    "credits": {
+        "enabled": false
+    },
+    "title": {
+        "text": ""
+    },
+    "tooltip": {
+        "pointFormat": "{series.name}: <b>{point.percentage:.1f}%</b>"
+    },
+    "plotOptions": {
+        "pie": {
+            "allowPointSelect": true,
+            "cursor": "pointer",
+            "dataLabels": {
+                "enabled": false
+            },
+            "showInLegend": true
+        }
+    },
+    "series": [
+        {
+            "name": "Brands",
+            "colorByPoint": true,
+            "data": [
+                {
+                    "name": "Critical PONs",
+                    "y": 4,
+                    "sliced": true,
+                    "selected": true
+                },
+                {
+                    "name": "Non-Critical PONs",
+                    "y": 50
+                }
+            ]
+        }
+    ]
+}
