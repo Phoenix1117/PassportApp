@@ -12,6 +12,7 @@ import DynamicTable from '@/components/Parts/Table'
 import Reference from '@/components/Reference/Reference'
 import ErrorSummary from '@/components/Parts/ErrorSummary'
 import CreateAnalysis from '@/components/Parts/CreateAnalysis'
+import Home1 from '@/components/Client/Dashboard/Home1'
 
 Vue.use(Router)
 
@@ -20,8 +21,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Home
+      name: 'Home1',
+      component: Home1
     },
     {
       path: '/login',
@@ -39,11 +40,11 @@ export default new Router({
       path: '/parts/analysis/create',
       name: 'CreateAnalysis',
       component: CreateAnalysis
-    },{
+    }, {
       path: '/parts/analysis/view',
       name: 'PartsAnalysis',
       component: PartsAnalysis
-    },{
+    }, {
       path: '/parts/analysis/dashboard',
       name: 'PartsAnalysisList',
       component: PartsAnalysisList
